@@ -8,7 +8,7 @@ pip install flask
 
 Tutorials resources:
 
-1. [flask-rest-api](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis) : [Source_Code](1-flask-rest-api/)
+1. [flask-rest-api](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis) : [Source Code](1-flask-rest-api/)
 
     To test these urls Use CURL commands:
     ```
@@ -16,7 +16,7 @@ Tutorials resources:
     curl -i -H "Content-Type: application/json" -X POST -d '{"task_id":2}' http://  127.0.0.1:5000/restapi/create
     ```
 
-2. [Full Flask Series](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis)
+2. [Full Flask Series](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis) : Complete Series in flask development
 
 ---
 
