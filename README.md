@@ -6,10 +6,14 @@ Requirements
 pip install flask
 ```
 
-Tutorials resources:
+Tutorials , resources and Concepts :
 
 
 * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis) : Complete Series in flask development
+
+* [Custom Error Message](https://stackoverflow.com/questions/21294889/how-to-get-access-to-error-message-from-abort-command-when-using-custom-error-ha)
+
+* [Flask HTTP methods](https://www.tutorialspoint.com/flask/flask_http_methods.htm)
 
 ---
 
@@ -27,6 +31,4 @@ Repository topics guide :
 
 Questions and More features:
 
-1. [Custom Error Message](https://stackoverflow.com/questions/21294889/how-to-get-access-to-error-message-from-abort-command-when-using-custom-error-ha)
 
-2. [Flask HTTP methods](https://www.tutorialspoint.com/flask/flask_http_methods.htm)
