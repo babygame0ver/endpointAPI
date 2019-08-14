@@ -6,6 +6,8 @@ Requirements
 pip install flask
 ```
 
+---
+
 Tutorials , resources and Concepts :
 
 
@@ -26,9 +28,5 @@ Repository topics guide :
     curl -i http://127.0.0.1:5000/restapi
     curl -i -H "Content-Type: application/json" -X POST -d '{"task_id":2}' http://  127.0.0.1:5000/restapi/create
     ```
-
----
-
-Questions and More features:
 
 
