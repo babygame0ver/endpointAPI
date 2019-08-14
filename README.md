@@ -11,9 +11,9 @@ Tutorials , resources and Concepts :
 
 * [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis) : Complete Series in flask development
 
-* [Custom Error Message](https://stackoverflow.com/questions/21294889/how-to-get-access-to-error-message-from-abort-command-when-using-custom-error-ha)
+* [Custom Error Message with error handler in flask](https://stackoverflow.com/questions/21294889/how-to-get-access-to-error-message-from-abort-command-when-using-custom-error-ha) : Map custom error code with custom function in flask
 
-* [Flask HTTP methods](https://www.tutorialspoint.com/flask/flask_http_methods.htm)
+* [Flask HTTP methods](https://www.tutorialspoint.com/flask/flask_http_methods.htm) : http methods like GET , PUT , POST in Flask.
 
 ---
 
