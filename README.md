@@ -26,7 +26,7 @@ Repository topics guide :
     To test these urls Use CURL commands:
     ```
     curl -i http://127.0.0.1:5000/restapi
-    curl -i -H "Content-Type: application/json" -X POST -d '{"task_id":2}' http://  127.0.0.1:5000/restapi/create
+    curl -i -H "Content-Type: application/json" -X POST -d '{"task_id":2}' http://127.0.0.1:5000/restapi/create
     ```
 
 
