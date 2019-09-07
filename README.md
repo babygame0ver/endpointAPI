@@ -26,7 +26,7 @@ Repository topics guide :
     
     Link : http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
     
-    [include](1-flask-respt-api/1-flask-rest-api/1-flask-hello-world.py)
+
     
     To test these urls Use CURL commands:
     ```
