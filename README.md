@@ -8,19 +8,13 @@ pip install flask
 
 ---
 
-## Tutorials & Resources :
+## Tutorials / Resources / Projects :
 
 * Flask Mega Tutorial : https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis
 
-## Concepts : 
-
-* Custom Error Message with error handler in flask : https://stackoverflow.com/questions/21294889/how-to-get-access-to-error-message-from-abort-command-when-using-custom-error-ha
-
-* Flask HTTP methods : https://www.tutorialspoint.com/flask/flask_http_methods.htm
-
 ---
 
-## Repository topics guide :
+## My Projects :
 
 1. [flask-rest-api](1-flask-rest-api/)
     
@@ -33,4 +27,13 @@ pip install flask
     curl -i -H "Content-Type: application/json" -X POST -d '{"task_id":2}' http://127.0.0.1:5000/restapi/create
     ```
 
- 
+---
+
+## Concepts : 
+
+* Custom Error Message with error handler in flask : https://stackoverflow.com/questions/21294889/how-to-get-access-to-error-message-from-abort-command-when-using-custom-error-ha
+
+* Flask HTTP methods : https://www.tutorialspoint.com/flask/flask_http_methods.htm
+
+---
+
