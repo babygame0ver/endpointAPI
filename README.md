@@ -55,5 +55,3 @@ pip install flask
 
 ---
 
-
-[!INCLUDE[sample include file](1-flask-rest-api/1-flask-hello-world.py)]
