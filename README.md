@@ -54,3 +54,6 @@ pip install flask
 * How to get http headers in flask? : https://stackoverflow.com/questions/29386995/how-to-get-http-headers-in-flask
 
 ---
+
+
+[!INCLUDE[sample include file](1-flask-rest-api/1-flask-hello-world.py)]
