@@ -11,7 +11,7 @@ pip install -r require.txt
 ## Run endpointAPI :
 
 ```
-python file.py
+python endpointAPI.py
 ```
 
 ---
