@@ -21,7 +21,7 @@ class endpointAPI(object):
         result = ''
         for index,key in enumerate(request.headers,start=1):
               result += '{}. {} <br>'.format(index,key)
-        return '{} - {}'.format(result,request.json)
+        return '{} - {}'.format(result,request.get_json())
 
     def TwitterCallBack(self):
         return 'TwitterCallBack'
