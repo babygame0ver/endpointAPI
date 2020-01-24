@@ -18,12 +18,10 @@ class endpointAPI(object):
         return jsonify(self.payloads)
 
     def GitHubCallBack(self):
-        now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        print('Headers : ')
-        print(request.headers)
-        print('JSON : ')
-        print(request.json)
-        return 'GitHubCallBack {}'.format(now)
+        result = ''
+        for index,key in enumerate(request.headers,start=1):
+              result += '{}. {} <br>'.format(index,key)
+        return '{} - {}'.format(result,request.json)
 
     def TwitterCallBack(self):
         return 'TwitterCallBack'
