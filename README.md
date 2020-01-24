@@ -3,15 +3,20 @@
 Requirements
 
 ```
-pip install -r require.txt
+pip install -r requirements.txt
 ```
 
 ---
 
-## Run endpointAPI :
+## Run endpointAPI locally :
 
 ```
-python endpointAPI.py
+python app.py
 ```
 
 ---
+
+## Deploy to Heroku
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/babygame0ver/endpointAPI/)
