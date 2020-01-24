@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 from flask import Flask ,jsonify ,abort , make_response ,request
+from datetime import datetime
+
 app = Flask(__name__)
 
 
@@ -16,7 +18,12 @@ class endpointAPI(object):
         return jsonify(self.payloads)
 
     def GitHubCallBack(self):
-        return 'GitHubCallBack'
+        now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        print('Headers : ')
+        print(request.headers)
+        print('JSON : ')
+        print(request.json)
+        return 'GitHubCallBack {}'.format(now)
 
     def TwitterCallBack(self):
         return 'TwitterCallBack'
@@ -35,11 +42,11 @@ def index():
 def json():
     return api.json()
 
-@app.route('/gitHubcallback',methods=['GET'])
+@app.route('/githubcallback',methods=['GET','POST'])
 def GitHubCallBack():
     return api.GitHubCallBack()
- 
-@app.route('/twittercallBack',methods=['GET'])
+
+@app.route('/twittercallBack',methods=['GET','POST'])
 def TwitterCallBack():
     return api.TwitterCallBack()
 
