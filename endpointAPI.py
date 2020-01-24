@@ -38,7 +38,7 @@ def json():
 @app.route('/gitHubcallback',methods=['GET'])
 def GitHubCallBack():
     return api.GitHubCallBack()
-
+ 
 @app.route('/twittercallBack',methods=['GET'])
 def TwitterCallBack():
     return api.TwitterCallBack()
