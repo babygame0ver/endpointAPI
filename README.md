@@ -1,5 +1,7 @@
 # endpointAPI
 
+endpointAPI provides callback URLs for various OAUTH applications.
+
 Requirements
 
 ```
