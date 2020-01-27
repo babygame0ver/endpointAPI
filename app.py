@@ -32,6 +32,10 @@ class endpointAPI(object):
     def showParamtersFromURl(self,id):
         return '{} is the paramter in URL'.format(id)
 
+    def getOAuthAccessToken(self):
+        print('getOAuthAccessToken')
+        return 'getOAuthAccessToken'
+
 payloads = [{'id' : 1, 'title' : u'hacker'},{'id' : 2,'title' : u'developer'}]
 api = endpointAPI(payloads)
 
@@ -55,6 +59,11 @@ def TwitterCallBack():
 @app.route('/urlparam/<int:api_id>',methods=['GET'])
 def showParamtersFromURl(api_id):
     return api.showParamtersFromURl(api_id)
+
+@app.route('/getOAuthAccessToken',methods=['GET'])
+def getOAuthAccessToken():
+    return api.getOAuthAccessToken()
+
 
 if __name__ == '__main__':
     app.run(debug=True)
