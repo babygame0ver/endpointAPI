@@ -57,4 +57,4 @@ def showParamtersFromURl(api_id):
     return api.showParamtersFromURl(api_id)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
