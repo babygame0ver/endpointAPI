@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Testing API Locally</title>
+  </head>
+  <body>
+<button type="button" name="button" onclick="execute()">test</button>
+<script type="text/javascript">
+function execute(){
+    var theUrl = 'http://127.0.0.1:5000/getOAuthAccessToken';
+    var xmlHttp = new XMLHttpRequest();
+     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+     xmlHttp.send( null );
+     return xmlHttp.responseText;
+}
+
+</script>
+
+
+  </body>
+</html>
